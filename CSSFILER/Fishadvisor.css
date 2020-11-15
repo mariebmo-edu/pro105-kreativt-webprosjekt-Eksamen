@@ -44,9 +44,13 @@ html {
     width: 20%;
     min-width: 200px;
     max-width: 250px;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
-.main_page {
-    margin-top: 50px;
-    text-align: center;
+#logo:hover {
+    min-width: 250px;
+    max-width: 300px;
+    width: 25%;
 }
+
