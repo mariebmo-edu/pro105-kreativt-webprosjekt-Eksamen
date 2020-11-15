@@ -1,3 +1,33 @@
+/* - COLORS
+Light Blue - #1DD5E6
+Blue	   - #46AEF7
+Orange	   - #F26432
+Off-White  - #F1EFED
+Yellow	   - #EDD70F
+*/
+
+/* -----
+--      BASIC SET-UP
+----- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #505050;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* -----
+--      HEADER
+----- */
+
 .header_area {
     padding: 15px;
     text-align: center;
@@ -10,6 +40,7 @@
 }
 
 #logo {
+    margin-top: 8px;
     width: 20%;
     min-width: 200px;
     max-width: 250px;
