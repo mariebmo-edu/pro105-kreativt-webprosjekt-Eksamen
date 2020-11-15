@@ -35,24 +35,20 @@ html {
     color: white;
     font-size: 20px;
     min-height: 50px;
-    margin: -10px;
-    height: 75px;
+    height: 80px;
     max-height: 400px;
 }
 
 #logo {
-    margin-top: 8px;
+    margin-top: 7px;
     width: 20%;
     min-width: 200px;
     max-width: 250px;
     transition-property: all;
     transition-duration: 0.5s;
-    padding-bottom: 10px;
 }
 
 #logo:hover {
-    min-width: 250px;
-    max-width: 300px;
-    width: 25%;
+    transform: scale(1.05);
 }
 
