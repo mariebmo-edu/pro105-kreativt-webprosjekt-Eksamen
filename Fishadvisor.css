@@ -1,0 +1,18 @@
+.header_area {
+    padding: 15px;
+    text-align: center;
+    background-color: #1a7dc2;
+    color: white;
+    font-size: 20px;
+    min-height: 50px;
+    margin: -10px;
+}
+
+#logo{
+    width: 20%;
+}
+
+.main_page{
+    margin-top: 50px;
+    text-align: center;
+}
