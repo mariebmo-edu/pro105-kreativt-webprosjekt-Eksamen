@@ -10,6 +10,8 @@
 
 #logo {
     width: 20%;
+    min-width: 300px;
+    
 }
 
 .main_page {
