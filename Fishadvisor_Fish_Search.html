@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -9,35 +9,20 @@
 <body>
     
     <label>Type of trip</label>
-        <select name="type_of_trip" id="type_of_trip">
-            <option value="vecation">Vacation</option>
-            <option value="spawning">Spawning</option>
-            <option value="global_warming">Global Warming</option>
-            <option value="migration">Migration</option>
-        </select><br>
+    <select name="type_of_trip" id="type_of_trip">
+        <option value="vacation">Vacation</option>
+        <option value="spawning">Spawning</option>
+        <option value="global_warming">Global Warming</option>
+        <option value="migration">Migration</option>
+    </select><br>
     
     <label>Type of water</label>
-        <select name="water_type" id="type_of_water">
-            <option value="fresh">Fresh</option>
-            <option value="salt_ocean">Salt / Ocean</option>
-            <option value="river">River</option>
-        </select><br>
+    <select name="water_type" id="type_of_water">
+        <option value="fresh">Fresh</option>
+        <option value="salt_ocean">Salt / Ocean</option>
+        <option value="river">River</option>
+    </select>
     
-    <label>Date:</label>
-        <input type="date" id="start_date" name="trip_start" value="2020-11-15" min="2020-11-15" max="2025-11-15">
-        <input type="date" id="end_date" name="trip_end" value="2020-11-16" min="2020-11-16" max="2025-11-16"><br><br>
-
-    <label>Water Temperature</label><br>
-        <label>0</label>
-        <input type="range" id="water_temperature" name="water_temperature" min="0" max="100">
-        <label>100</label><br><br>
-    
-    <label>Risk Level</label><br>
-        <label>low</label>
-        <input type="range" id="risk_level" name="risk_level" min="0" max="100">
-        <label>high</label><br><br>
-    
-    <input type="button" value="SEARCH">
 </body>
 
 </html>
