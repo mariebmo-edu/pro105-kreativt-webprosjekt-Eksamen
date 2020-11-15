@@ -47,6 +47,7 @@ html {
     max-width: 250px;
     transition-property: all;
     transition-duration: 0.5s;
+    padding-bottom: 10px;
 }
 
 #logo:hover {
