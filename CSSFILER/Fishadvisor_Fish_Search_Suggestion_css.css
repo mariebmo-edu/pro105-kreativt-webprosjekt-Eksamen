@@ -1,0 +1,40 @@
+    /* The Main Box */
+    .recommended_container{
+        width: 50%;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;    
+        }
+    
+    /* Images in the Boxes */
+    .recommended_container img{
+        width: 250px;
+        height: 200px;
+        float:left;         
+        }
+
+    /* The Boxes */
+    .recommended_place{
+        float: right;
+        background-color: aliceblue;
+        margin-bottom: 5%;
+        width: 100%;    
+        }
+
+    /* Text in the boxes and headlines */
+    p{
+        color: black;
+        }
+
+    h1{
+        color: black;
+        text-align: center;
+        font-size: 60px;
+        }
+
+    h2{
+        color: black;
+        text-align: center;
+        font-size: 60px;
+        }
