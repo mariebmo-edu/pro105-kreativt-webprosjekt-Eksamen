@@ -1,0 +1,30 @@
+h1{
+	margin-left: 1rem;
+	padding: 5px;
+	text-align: center;
+}
+body{
+	background-color: #EDD70F;
+}
+
+input{
+	margin-left: 5px;
+}
+
+.login_btn{
+	padding: 8px;
+	border-radius: 7px;
+	margin-left: 8rem;
+}
+.login_btn:hover{
+	font-size: 12px;
+	background-color: #1DD5E6;
+}
+
+.input_name, .input_password{
+	font-size: 1rem;
+	padding: 5px;
+}
+.input_name{
+	margin-left: 37px;
+}
