@@ -1,3 +1,7 @@
+html{
+    background-color: #F1EFED
+}
+
 /*SEARCH*/
 
 /*re-usable CSS classes*/
@@ -31,14 +35,13 @@
     width: 600px;
     height: 100%;
     background-color: lightgrey;
-
-
 }
 
 
 /*FROM/TO-section - First Row*/
 #to_from_container{
     display: flex;
+    margin-bottom: 10px;
 }
 
 /*Travel Date-section - Second Row*/
@@ -70,4 +73,8 @@ input[type=range]{
     font-weight: bold;
     background-color: #46AEF7;
     color: #F1EFED
+}
+
+.opacity{
+    opacity 50%;
 }
