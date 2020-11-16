@@ -1,0 +1,64 @@
+/* - COLORS
+Light Blue - #1DD5E6
+Blue	   - #46AEF7
+Orange	   - #F26432
+Off-White  - #F1EFED
+Yellow	   - #EDD70F
+*/
+
+
+/* Landing page box */
+
+.landing_page {
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(70, 173, 247, 1),
+        rgba(0, 0, 0, 0)),
+        url(/images/Background/background_frontpage.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+/* text box "seas the day" */
+.text_box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* heading */
+.h_primary {
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+.h_primary_main {
+    display: block;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+.h_primary_sub {
+    display: block;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 14px;
+}
+
+/* Discover button */
+
+.discover_btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #F26432;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-size: 16px;
+}
