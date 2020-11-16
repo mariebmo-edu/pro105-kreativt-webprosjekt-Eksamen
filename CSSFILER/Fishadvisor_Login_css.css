@@ -14,11 +14,13 @@ input{
 .login_btn{
 	padding: 8px;
 	border-radius: 7px;
-	margin-left: 8rem;
+	margin-left: 9rem;
 }
 .login_btn:hover{
-	font-size: 12px;
 	background-color: #1DD5E6;
+	transform: scale(1.1);
+	transition-duration: 1s;
+	color: #EDD70F;
 }
 
 .input_name, .input_password{
@@ -27,4 +29,7 @@ input{
 }
 .input_name{
 	margin-left: 37px;
+}
+label{
+	margin-left: 1rem;
 }
