@@ -1,0 +1,70 @@
+/* */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.recommended_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+img {
+    border-radius: 15px;
+    height: 200px;
+    opacity: 80%;
+}
+
+.recommended_place {
+    padding: 30px;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+#lakselva_btn {
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#lakselva_btn:hover {
+    height: 240px;
+    opacity: 100%;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#frafjordelva_btn {
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#frafjordelva_btn:hover {
+    height: 240px;
+    opacity: 100%;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+#vormo_btn {
+    height: 200px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#vormo_btn:hover {
+    height: 240px;
+    opacity: 100%;
+    transform: scale(1.15);
+    cursor: pointer;
+}
