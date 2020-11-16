@@ -1,3 +1,10 @@
+body {
+    background-image: hvilken backgroundimage??;
+    background-size: cover;
+    background-position: center;
+    
+}
+
 /* Centering the h1 tag */
 h1 {
     display: flex;
@@ -19,32 +26,37 @@ h2 {
 
 }
 
-/* Resizing the images to fit */
-img {
+/* Arranging the divs to be in a row by using flexbox */
+.recommended_place {
+    padding: 30px;    
+    position: relative;
+    display: inline-block;
+
+    
+}
+
+.lakselva_btn, #frafjordelva_btn, #vormo_btn {
     border-radius: 15px;
     height: 200px;
     opacity: 85%;
-    height: 200px;
     transition-property: all;
     transition-duration: 0.5s;
 }
 
-img:hover {
+.lakselva_btn:hover, #frafjordelva_btn:hover, #vormo_btn:hover {
     height: 240px;
     opacity: 100%;
     transform: scale(1.15);
     cursor: pointer;
+
 }
 
-/* Arranging the divs to be in a row by using flexbox */
-.recommended_place {
-    padding: 30px;
-    display: flex;
-    flex-flow: column;
-    
+.dropdown {
+    display: none;
+    position: absolute;
+
 }
 
-#title {
-    
+.lakselva_btn:hover .dropdown {
+    display: block;
 }
-
