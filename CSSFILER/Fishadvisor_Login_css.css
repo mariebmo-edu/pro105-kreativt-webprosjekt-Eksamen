@@ -1,35 +1,120 @@
-h1{
-	margin-left: 1rem;
-	padding: 5px;
+/* 
+Notice that some parts are commented out.
+If we choose to go with an background image or not, we can use those commented out codes with it.
+They er marked with (W BG IMAGE).
+*/
+
+
+/* Background & general font */
+
+/*
+body{
+	background-color: #F1EFED;
+	font-family: 'Lato', sans-serif;
+}
+*/
+
+/* W BG IMAGE */
+body {
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(70, 173, 247, 0.9), rgba(0, 0, 0, 0.8)) , url(/images/Background/background_login.jpg);
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+}
+
+/* Login heading */
+h1 {
+	padding: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 200;
+	/* color: #000; */
+	color: #fff;
+}
+
+/* W BG IMAGE Header background turns transparent - and maybe remove other options when it comes to that */
+.header_area {
+	background-color: transparent;
+}
+
+
+/* ------ login part ------ */
+.login-box {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 400px;
+	height: 450px;
+	margin-top: 300px;
+	margin-left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 1em;
+	box-shadow: 0px 10px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+
+/* Login tittel */
+.login {
+	text-align: center;
+	padding-top: 40px;
+	/* color: #505050; */
+	color: #F1EFED;
+    font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+
+/* username and password field, shared class for less code. 
+Also have their unique class in case somebody whats to change one*/
+.u_login {
+	width: 70%;
+	padding: 10px 20px;
+	background:  #F1EFED;
+	color: #505050;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border: none;
+	border-radius: 50px;
+	outline: none;
+	text-align: center;
+	margin-bottom: 27px;
+    border: 2px solid transparent;
+	margin-bottom: 50px;
+	transition: all .5s ease-out;
+}
+
+/* a little animation when field is focused/clicked on */
+.u_login:focus {
+	border: 2px solid #1DD5E6;
+}
+
+
+/* login / sign in button */
+.login_btn {
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	padding: 10px 40px;
+	margin-bottom: 50px;
+	border: 0;
+	background: linear-gradient(to right, #F26432, #46AEF7);
+}
+
+/* login box bottom part - forgot pass, etc */
+.login_bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 70px 0px 70px;
 	text-align: center;
 }
-body{
-	background-color: #EDD70F;
-}
-
-input{
-	margin-left: 5px;
-}
-
-.login_btn{
-	padding: 8px;
-	border-radius: 7px;
-	margin-left: 9rem;
-}
-.login_btn:hover{
-	background-color: #1DD5E6;
-	transform: scale(1.1);
-	transition-duration: 1s;
-	color: #EDD70F;
-}
-
-.input_name, .input_password{
-	font-size: 1rem;
-	padding: 5px;
-}
-.input_name{
-	margin-left: 37px;
-}
-label{
-	margin-left: 1rem;
+.login_sub a {
+	/* color:#505050; */
+	color: #F1EFED;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 13px;
 }
