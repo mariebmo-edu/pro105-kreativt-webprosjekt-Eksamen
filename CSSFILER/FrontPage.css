@@ -43,25 +43,24 @@ Yellow	   - #EDD70F
     font-size: 60px;
     font-weight: 300;
     letter-spacing: 10px;
+
+    animation: moveInLeft 1s ease-out .2s backwards;
 }
 .h_primary_sub {
     display: block;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 14px;
+
+    animation: moveInRight 1s ease-out .2s backwards;
 }
 
 /* Discover button */
 
 .discover_btn {
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #F26432;
-    color: #fff;
     padding: 12px 24px;
-    border-radius: 20px;
-    font-size: 16px;
-    transition: all .2s;
+
+    animation: fadeInScale 1s ease-out 1s backwards;
 }
 
 

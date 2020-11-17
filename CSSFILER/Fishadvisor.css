@@ -140,3 +140,138 @@ ul {
             background-color: #1994ea;
         }
 
+/* BUTTONS */
+
+.btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #F26432;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    transition: all .3s;
+}
+
+/* LOGIN & SIGNUP */
+
+/* username and password field, shared class for less code. 
+Also have their unique class in case somebody whats to change one*/
+.u_signup, .u_login {
+	width: 70%;
+	padding: 10px 20px;
+	background:  #F1EFED;
+	color: #505050;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border: 1px solid transparent;
+	border-radius: 50px;
+	outline: none;
+	text-align: center;
+	margin-bottom: 27px;
+	margin-bottom: 50px;
+	transition: all .5s ease-out;
+}
+
+/* login / sign in button */
+.login_btn, .signup_btn {
+	color: #fff;
+	text-align: center;
+	padding: 10px 40px;
+	margin-bottom: 50px;
+	border: 0;
+	background: linear-gradient(to right, #F26432, #46AEF7);
+}
+
+/* a little animation when field is focused/clicked on */
+.u_signup:focus, .u_login:focus {
+	border: 1px solid#F26432;
+}
+
+/* BOXES */
+
+.box_black {
+    text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 400px;
+	height: 450px;
+    border-radius: 1em;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    
+    animation: moveInBottom 1s ease-out .5s backwards;
+}
+
+.box_center {
+    margin-top: 300px;
+	margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* HEADING */
+
+h1 {
+	padding: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+    font-weight: 100;
+    letter-spacing: .1em;
+	color: #000;
+}
+
+/* ANIMATIONS */
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    70% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    70% {
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

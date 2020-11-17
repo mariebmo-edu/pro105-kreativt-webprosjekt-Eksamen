@@ -21,17 +21,10 @@ body {
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: 'Lato', sans-serif;
 }
 
 /* Login heading */
 h1 {
-	padding: 40px;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 40px;
-	font-weight: 200;
-	/* color: #000; */
 	color: #fff;
 }
 
@@ -43,15 +36,7 @@ h1 {
 
 /* ------ Sign up box ------ */
 .signup_box {
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.3);
-	width: 400px;
 	height: 500px;
-	margin-top: 300px;
-	margin-left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 1em;
-	box-shadow: 0px 10px 35px 2px rgba(0, 0, 0, 0.14);
 }
 
 
@@ -64,44 +49,6 @@ h1 {
     font-weight: bold;
 	font-size: 25px;
 	margin-bottom: 20px;
-}
-
-
-/* username and password field, shared class for less code. 
-Also have their unique class in case somebody whats to change one*/
-.u_signup {
-	width: 70%;
-	padding: 10px 20px;
-	background:  #F1EFED;
-	color: #505050;
-	font-size: 14px;
-	font-weight: 400;
-	letter-spacing: 2px;
-	border: none;
-	border-radius: 50px;
-	outline: none;
-	text-align: center;
-	margin-bottom: 27px;
-    border: 2px solid transparent;
-	margin-bottom: 50px;
-	transition: all .5s ease-out;
-}
-
-/* a little animation when field is focused/clicked on */
-.u_signup:focus {
-	border: 2px solid #1DD5E6;
-}
-
-
-/* Sign up button */
-.signup_btn {
-	cursor: pointer;
-	color: #fff;
-	text-align: center;
-	padding: 10px 40px;
-	margin-bottom: 50px;
-	border: 0;
-	background: linear-gradient(to right, #F26432, #46AEF7);
 }
 
 
