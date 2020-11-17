@@ -125,3 +125,12 @@ Also have their unique class in case somebody whats to change one*/
     text-decoration: none;
     color: #fff;
 }
+
+#fish_clicked {
+	color: #fff;
+	opacity: 0.5;
+}
+#fisher_clicked {
+	color: #fff;
+	opacity: 0.5;
+}
