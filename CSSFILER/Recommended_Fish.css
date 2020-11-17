@@ -69,3 +69,23 @@ h2 {
 	box-shadow: 8px aliceblue;
 }
 
+.pie_charts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.pie {
+	padding: 1px;
+  	width: 10px; height: 10px;
+  	border-radius: 50%;
+  	background: yellowgreen;
+}
+
+.half_pie {
+	padding: 1px;
+	width: 10px; height: 10px;
+  	border-radius: 50%;
+  	background-image: linear-gradient(to right, yellowgreen 50%, white 0%);
+	border: yellowgreen;
+	
+}
