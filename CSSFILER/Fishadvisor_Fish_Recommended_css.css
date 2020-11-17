@@ -38,6 +38,7 @@ h2 {
 .lakselva_btn, #frafjordelva_btn, #vormo_btn {
     border-radius: 15px;
     height: 200px;
+	width: 350px;
     opacity: 85%;
     transition-property: all;
     transition-duration: 0.5s;
@@ -45,6 +46,7 @@ h2 {
 
 .lakselva_btn:hover, #frafjordelva_btn:hover, #vormo_btn:hover {
     height: 240px;
+	width: 390px;
     opacity: 100%;
     transform: scale(1.15);
     cursor: pointer;
@@ -53,7 +55,9 @@ h2 {
 }
 
 .dropdown {
-	padding: 30px;
+	height: 0px;
+	width: 0px;
+	margin: 20px;
 	display: none;
 	max-width: 100%;
 	transition-property: all;

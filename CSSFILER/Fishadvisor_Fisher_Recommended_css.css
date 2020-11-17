@@ -1,0 +1,72 @@
+body {
+    background-image: hvilken backgroundimage??;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Centering the h1 tag */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Centering the h2 tag */
+h2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Centering the div tag which contains the location divs */
+.recommended_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* Arranging the divs to be in a row by using flexbox */
+.recommended_place {  
+	padding: 30px;
+    position: relative;
+    display: inline-block;
+
+    
+}
+
+.lofoten_btn, #atlantic_btn, #hardanger_btn {
+    border-radius: 15px;
+    height: 200px;
+	width: 350px;
+    opacity: 85%;
+    transition-property: all;
+    transition-duration: 0.5s;
+	
+}
+
+.lofoten_btn:hover, #atlantic_btn:hover, #hardanger_btn:hover {
+    height: 240px;
+	width: 390px;
+    opacity: 100%;
+    transform: scale(1.15);
+    cursor: pointer;
+	box-shadow: 8px 8px 8px 8px aliceblue;
+
+}
+
+.dropdown {
+	padding: 30px;
+	display: none;
+	max-width: 100%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	
+	
+}
+
+.recommended_place:hover .dropdown {
+	display: block;
+	transition-duration: 0.5s;
+	box-shadow: 8px aliceblue;
+}
