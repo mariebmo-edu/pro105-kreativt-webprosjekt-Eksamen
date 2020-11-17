@@ -52,11 +52,7 @@ h2 {
 }
 
 .dropdown {
-    display: none;
-    position: absolute;
-
+	display: none;
+	
 }
 
-.lakselva_btn:hover .dropdown {
-    display: block;
-}
