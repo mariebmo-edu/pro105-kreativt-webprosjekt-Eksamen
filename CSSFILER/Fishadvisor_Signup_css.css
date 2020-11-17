@@ -106,8 +106,22 @@ Also have their unique class in case somebody whats to change one*/
 
 
 .custom-select {
-	position: relative;
-	font-family: 'Lato', sans-serif;
-	padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
+.custom-select > div {
+    background: linear-gradient(to right, #F26432, #46AEF7);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.custom-select a{
+    text-decoration: none;
+    color: #fff;
+}
