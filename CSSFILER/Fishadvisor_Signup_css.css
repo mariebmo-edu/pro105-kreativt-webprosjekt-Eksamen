@@ -41,12 +41,12 @@ h1 {
 }
 
 
-/* ------ login part ------ */
-.login-box {
+/* ------ Sign up box ------ */
+.signup_box {
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.2);
 	width: 400px;
-	height: 450px;
+	height: 500px;
 	margin-top: 300px;
 	margin-left: 50%;
 	transform: translate(-50%, -50%);
@@ -56,20 +56,20 @@ h1 {
 
 
 /* Login tittel */
-.login {
+.signup_title {
 	text-align: center;
 	padding-top: 40px;
 	/* color: #505050; */
 	color: #F1EFED;
     font-weight: bold;
 	font-size: 25px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 
 /* username and password field, shared class for less code. 
 Also have their unique class in case somebody whats to change one*/
-.u_login {
+.u_signup {
 	width: 70%;
 	padding: 10px 20px;
 	background:  #F1EFED;
@@ -88,13 +88,13 @@ Also have their unique class in case somebody whats to change one*/
 }
 
 /* a little animation when field is focused/clicked on */
-.u_login:focus {
+.u_signup:focus {
 	border: 2px solid #1DD5E6;
 }
 
 
-/* login / sign in button */
-.login_btn {
+/* Sign up button */
+.signup_btn {
 	cursor: pointer;
 	color: #fff;
 	text-align: center;
@@ -104,19 +104,10 @@ Also have their unique class in case somebody whats to change one*/
 	background: linear-gradient(to right, #F26432, #46AEF7);
 }
 
-/* login box bottom part - forgot pass, etc */
-.login_bottom {
-	display: flex;
-	justify-content: space-between;
-	padding: 50px 70px 0px 70px;
-	text-align: center;
-}
-.login_sub a {
-	/* color:#505050; */
-	color: #F1EFED;
-	text-decoration: none;
-	font-weight: 700;
-	font-size: 13px;
-}
 
+.custom-select {
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 15px;
+}
 
