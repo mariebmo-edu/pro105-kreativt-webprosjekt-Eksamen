@@ -57,12 +57,14 @@ h2 {
 
 .dropdown {
 	width: 350px;
-	padding: 30px;
+	padding: inherit;
 	display: none;
 	transition-property: all;
 	transition-timing-function: ease-in;
 	transition-duration: 0.5s;
 	box-shadow: 8px 8px 8px 8px aliceblue;
+	font-family: sans-serif;
+	font-size: 15px;
 	
 	
 }

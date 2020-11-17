@@ -55,7 +55,6 @@ h2 {
 }
 
 .dropdown {
-	margin: 20px;
 	display: none;
 	max-width: 100%;
 	transition-property: all;
