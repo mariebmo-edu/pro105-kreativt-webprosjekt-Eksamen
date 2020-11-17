@@ -59,11 +59,13 @@ ul {
     margin-top: -45px;
 }
 
-li {
+.navigation {
     float: right;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-    li a {
+.navigation a {
         display: block;
         color: white;
         text-align: center;
@@ -73,6 +75,6 @@ li {
         transition-duration: 0.5s;
     }
 
-        li a:hover {
+.navigation a:hover {
             background-color: #1994ea;
         }
