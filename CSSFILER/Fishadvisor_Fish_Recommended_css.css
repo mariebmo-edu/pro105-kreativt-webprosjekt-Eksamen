@@ -27,7 +27,8 @@ h2 {
 }
 
 /* Arranging the divs to be in a row by using flexbox */
-.recommended_place {    
+.recommended_place {  
+	padding: 30px;
     position: relative;
     display: inline-block;
 
@@ -54,12 +55,16 @@ h2 {
 .dropdown {
 	padding: 30px;
 	display: none;
+	max-width: 100%;
+	transition-property: all;
+	transition-duration: 0.5s;
+	
 	
 }
 
 .recommended_place:hover .dropdown {
 	display: block;
-	transition: width 0s ease 0.5s;
+	transition-duration: 0.5s;
 	box-shadow: 8px aliceblue;
 }
 
