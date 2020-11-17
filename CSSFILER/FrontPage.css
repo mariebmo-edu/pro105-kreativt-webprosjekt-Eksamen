@@ -41,13 +41,13 @@ Yellow	   - #EDD70F
 .h_primary_main {
     display: block;
     font-size: 60px;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 10px;
 }
 .h_primary_sub {
     display: block;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 14px;
 }
 

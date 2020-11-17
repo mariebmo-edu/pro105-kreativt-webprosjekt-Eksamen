@@ -1,10 +1,71 @@
-/* - COLORS
+/* ---- COLORS -----
+
 Light Blue - #1DD5E6
 Blue	   - #46AEF7
 Orange	   - #F26432
 Off-White  - #F1EFED
 Yellow	   - #EDD70F
+
 */
+
+/* ---- Fonts ---- */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/Font/Lato/Lato-Regular.ttf')
+}
+
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 100;
+    src: url('/Font/Lato/Lato-Thin.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 100;
+    font-style: italic;
+    src: url('/Font/Lato/Lato-ThinItalic.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 300;
+    src: url('/Font/Lato/Lato-Light.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: italic;
+    src: url('/Font/Lato/Lato-LightItalic.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 400;
+    font-style: italic;
+    src: url('/Font/Lato/Lato-Italic.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 700;
+    src: url('/Font/Lato/Lato-Bold.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 700;
+    font-style: italic;
+    src: url('/Font/Lato/Lato-BoldItalic.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 900;
+    src: url('/Font/Lato/Lato-Black.ttf');
+}
+@font-face { 
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: italic;
+    src: url('/Font/Lato/Lato-BlackItalic.ttf');
+}
+
 
 /* ----- General SET-UP ----- */
 
@@ -78,3 +139,4 @@ ul {
 .navigation a:hover {
             background-color: #1994ea;
         }
+
