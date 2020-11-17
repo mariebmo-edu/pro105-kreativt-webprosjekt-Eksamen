@@ -34,35 +34,45 @@
     </div>
     
     
-    <h1> SEARCH </h1>
-    
+    <!--SEARCH - Container-->
     <div id="search_container">
         
+    <!--First Row - Container-->
     <div id="to_from_container">
+        
+        <!-- First column -->
         <div id="from" class="travel_to_from general_flex_style">
             <label class="label_text">From</label><br>
             <input type="text" value="The Atlantic Ocean">
         </div>
+        
+        <!-- Second column -->
         <div id="to" class="travel_to_from general_flex_style">
             <label class="label_text">To</label><br>
             <input type="text" value="...">
         </div>
     </div>
         
+    <!--Second Row - Container-->
+    <div id="travel_date_container">
         
-    <div id="travel_date_container" >
+        <!--First column-->
         <div class="travel_date general_flex_style">
         <label class="label_text">Start</label><br>
         <input type="date"  id="start_date" name="trip_start" value="2020-11-15" min="2020-11-15" max="2025-11-15">
         </div>
 
+        <!--Second column-->
         <div class="travel_date general_flex_style">
         <label class="label_text">Return</label><br>
         <input type="date"  id="end_date" name="trip_end" value="2020-11-16" min="2020-11-16" max="2025-11-16">
         </div>
     </div>
         
+        <!--Third Row - Container-->
     <div id="bottom_row_container">
+        
+        <!--First column-->
         <div id="type_of_trip_contaier" class="general_flex_style">
             <select name="type_of_trip" id="type_of_trip">
                 <option value="vecation">Vacation</option>
@@ -73,6 +83,7 @@
             </select><br>
         </div>
 
+        <!--Second column-->
         <div id="type_of_water_container" class="general_flex_style">
             <select name="water_type" id="type_of_water">
                 <option value="fresh">Fresh</option>
@@ -81,6 +92,7 @@
             </select><br>
         </div>
 
+        <!--Third column-->
         <div id="water_temperature_container" class="general_flex_style">
             <label class="label_text">Water Temperature</label><br>
             <label class="range_text">0</label>
@@ -88,16 +100,18 @@
             <label class="range_text">100</label><br><br>
         </div>
 
-            <div id="risk_level_container" class="general_flex_style">
-                <label class="label_text">Risk Level</label><br>
-                <label class="range_text">low</label>
-                <input type="range" id="risk_level" name="risk_level" min="0" max="100">
-                <label class="range_text">high</label><br><br>
-            </div>
+        <!--Fourth column-->
+        <div id="risk_level_container" class="general_flex_style">
+            <label class="label_text">Risk Level</label><br>
+            <label class="range_text">low</label>
+            <input type="range" id="risk_level" name="risk_level" min="0" max="100">
+            <label class="range_text">high</label><br><br>
         </div>
-        
-        <a href="Fishadvisor_Fish_Recommended.html"><input type="button" value="SEARCH" class="general_flex_style" id="search_button"></a>
     </div>
+        
+        <!--Search Button-->
+        <a href="Fishadvisor_Fish_Recommended.html"><input type="button" value="SEARCH" class="general_flex_style" id="search_button"></a>
+    </div><!--END OF SEARCH-->
 </body>
 
 </html>
