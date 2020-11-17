@@ -1,3 +1,9 @@
+html{
+    background-color: grey
+}
+
+
+
 .loading_icon{
     animation: rotate 8s linear infinite;
 }
@@ -6,3 +12,23 @@
     0% {transform: rotate(0deg);}
     100% {transform: rotate(-360deg);}
 };
+
+
+
+.fade_in{
+    animation: hidden 4s ease-in infinite;
+}
+
+.fade_in:hover{
+    animation: appear 4s ease-in infinite;
+}
+
+@keyframes hidden {
+    0% {opacity: 0%}
+    100% {opacity: 0%}
+}
+
+@keyframes appear {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
