@@ -58,15 +58,14 @@ h2 {
 .dropdown {
 	width: 350px;
 	padding: inherit;
-	opacity: 0%;
-	display: flex;
+	display: none;
 	transition-property: all;
-	transition-timing-function: ease;
+	transition-timing-function: ease-in;
 	transition-duration: 0.5s;
 	box-shadow: 8px 8px 8px 8px aliceblue;
 	font-family: sans-serif;
 	font-size: 15px;
-	flex-direction: row;
+	
 	
 }
 
@@ -74,21 +73,4 @@ h2 {
 	display: block;
 	transition-duration: 0.5s;
 	box-shadow: 8px aliceblue;
-	opacity: 100%;
-}
-
-.pie {
-	padding: 1px;
-  	width: 10px; height: 10px;
-  	border-radius: 50%;
-  	background: yellowgreen;
-}
-
-.half_pie {
-	padding: 1px;
-	width: 10px; height: 10px;
-  	border-radius: 50%;
-  	background-image: linear-gradient(to right, yellowgreen 50%, white 0%);
-	border: yellowgreen;
-	
 }
