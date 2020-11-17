@@ -35,7 +35,7 @@ h2 {
     
 }
 
-.lofoten_btn, #atlantic_btn, #hardanger_btn {
+#lofoten_btn, #atlantic_btn, #hardanger_btn {
     border-radius: 15px;
     height: 200px;
 	width: 350px;
@@ -45,7 +45,7 @@ h2 {
 	
 }
 
-.lofoten_btn:hover, #atlantic_btn:hover, #hardanger_btn:hover {
+#lofoten_btn:hover, #atlantic_btn:hover, #hardanger_btn:hover {
     height: 240px;
 	width: 390px;
     opacity: 100%;
@@ -56,16 +56,18 @@ h2 {
 }
 
 .dropdown {
+	width: 350px;
 	padding: 30px;
 	display: none;
-	max-width: 100%;
 	transition-property: all;
+	transition-timing-function: ease-in;
 	transition-duration: 0.5s;
+	box-shadow: 8px 8px 8px 8px aliceblue;
 	
 	
 }
 
-.recommended_place:hover .dropdown {
+#lofoten_btn:hover + .dropdown, #atlantic_btn:hover + .dropdown, #hardanger_btn:hover + .dropdown {
 	display: block;
 	transition-duration: 0.5s;
 	box-shadow: 8px aliceblue;
