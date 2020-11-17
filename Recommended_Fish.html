@@ -1,59 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Fishadvisor Login </title>
+	<head>
+		<meta charset="utf-8">
+		<title>Fishadvisor Login </title>
 
-        <link rel="stylesheet" href="CSSFILER/Fishadvisor.css">
-        <link rel="stylesheet" href="CSSFILER/Recommended_Fish.css">
-    
-    
-    </head>
-<body>
-    
-    <div class="header_area">
-    <!-- contains header image, buttons (front page, search, user)-->
-        <a href="FrontPage.html">
-            <img src="images/logo/full-logo-monochrome-white.svg" id="logo" />
-        </a>
+		<link rel="stylesheet" href="CSSFILER/Fishadvisor.css">
+		<link rel="stylesheet" href="CSSFILER/Recommended_Fish.css">
 
-        <ul id="nav_links">
-            <li class="navigation"><a href="LogIn.html">Log in</a></li>
-            <li class="navigation"><a href="Search_Fish.html">Search</a></li>
-            <li class="navigation"><a href="Recommended_Fish.html">Recommended</a></li>
-        </ul>
 
-    </div>
-    
-    <section id="title">
-        <h1> RECOMMENDED FOR YOU </h1>
-    </section>
-    
-    <div class="recommended_container">
-        <div class="recommended_place">
-            <h2>Lakselva</h2>
-            <a href="Selected_Info_Fish.html"><img src="images/fish/underwater-lakselv.jpg" class="lakselva_btn"></a>
-                <div class="dropdown">
-                    <p>Info om lakselva</p>
-                </div>
-        </div>
-        <div class="recommended_place">
-            <h2>Frafjordelva</h2>
-            <img src="images/fish/underwater-seaweed.jpg" id="frafjordelva_btn">
-			<div class="dropdown" a href="Selected_Info_Fish.html">
-				<p>Info om Frafjordelva</p>
+	</head>
+	<body>
+
+		<div class="header_area">
+			<!-- contains header image, buttons (front page, search, user)-->
+			<a href="FrontPage.html">
+				<img src="images/logo/full-logo-monochrome-white.svg" id="logo" />
+			</a>
+
+			<ul id="nav_links">
+				<li class="navigation"><a href="LogIn.html">Log in</a></li>
+				<li class="navigation"><a href="Search_Fish.html">Search</a></li>
+				<li class="navigation"><a href="Recommended_Fish.html">Recommended</a></li>
+			</ul>
+		</div>
+		<main class="landing_page">
+			<section id="title">
+				<h1> RECOMMENDED FOR YOU </h1>
+			</section>
+
+			<div class="recommended_container">
+				<div class="recommended_place">
+					<h2>Lakselva</h2>
+					<a href="Selected_Info_Fish.html" id="lakselva_btn"><img src="images/fish/underwater-lakselv.jpg" id="lakselva_btn"></a>
+					<div class="dropdown">
+						<div class="pie_charts">
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="white_pie"></span>
+							<p>4/5 - 7 Reviews</p>
+						</div>
+						<p>30 Others have rated this place.</p>
+						<div class="last_update">
+							<p>Last updated:</p>
+							Thursday, 19 Nov 2020
+						</div>
+						<div class="info">
+							<p>Temperature: 7&deg;</p>
+							<p>Current: 6 m/s</p>
+							<p>Likely to be caught: 24%</p>
+						</div>
+					</div>
+				</div>
+				<div class="recommended_place">
+					<h2>Frafjordelva</h2>
+					<img src="images/fish/underwater-seaweed.jpg" id="frafjordelva_btn">
+					<div class="dropdown">
+						<div class="pie_charts">
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="white_pie"></span>
+							<p>4/5 - 7 Reviews</p>
+						</div>
+						<p>30 Others have rated this place.</p>
+						<div class="last_update">
+							<p>Last updated:</p>
+							Thursday, 19 Nov 2020
+						</div>
+						<div class="info">
+							<p>Temperature: 4&deg;</p>
+							<p>Current: 6 m/s</p>
+							<p>Likely to be caught: 18%</p>
+						</div>
+					</div>
+				</div>
+				<div    class="recommended_place">
+					<h2>Vormo</h2>
+					<img src="images/fish/underwater-vormo.jpg" id="vormo_btn">
+					<div class="dropdown">
+						<div class="pie_charts">
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<span class="pie"></span>
+							<p>5/5 - 16 Reviews</p>
+						</div>
+						<p>184 Others have rated this place.</p>
+						<div class="last_update">
+							<p>Last updated:</p>
+							Thursday, 19 Nov 2020
+						</div>
+						<div class="info">
+							<p>Temperature: 8&deg;</p>
+							<p>Current: 9 m/s</p>
+							<p>Likely to be caught: 8%</p>
+						</div>
+					</div>
+				</div>
 			</div>
-        </div>
-        <div    class="recommended_place">
-            <h2>Vormo</h2>
-            <img src="images/fish/underwater-vormo.jpg" id="vormo_btn">
-			<div class ="dropdown">
-				<p>Info om Vormo</p>
-			</div>
-        </div>
-    </div>
+		</main>
 
-    
-</body>
+	</body>
 
 </html>
