@@ -85,6 +85,23 @@ html {
     height: 100%;
 }
 
+/* BACKGROUND */
+
+/*wave_animation*/
+#background_waves{
+    position: absolute;
+    background-image: url(/images/Background/waves.png);
+    width: 100%;
+    height: 100%;
+    opacity: 0%;
+    background-repeat: repeat-x;
+    animation-name: waves-move;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
 /* -----  HEADER  ----- */
 
 .header_area {
@@ -154,6 +171,8 @@ ul {
     border: none;
     transition: all .3s;
 }
+
+
 
 /* LOGIN & SIGNUP */
 
@@ -283,3 +302,8 @@ h1 {
     }
 }
 
+@keyframes waves-move {
+    0% {background-position: 0%; opacity: 0;}
+    50% {opacity: 0.03;}
+    100% {background-position: -100%; opacity: 0;}
+}
