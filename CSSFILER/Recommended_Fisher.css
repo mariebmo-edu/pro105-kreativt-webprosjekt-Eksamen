@@ -149,3 +149,38 @@ h1 {
 	align-items: center;
 	padding-left: 2px;
 }
+/* "Popup" discount window without javascript */
+.popup {
+/* Making the box transparent black */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+/* Text */
+    text-align: center;
+	padding-top: 10px;
+    padding-bottom: 5px;
+	color: #F1EFED;
+	font-size: 19px;
+/* Box */
+    margin-top: 15px;
+	margin-bottom: 10px;
+    height: 100px;
+	width: 230px;
+    opacity: 0%;
+    transform: scale(0.01);
+/* Animation */
+    animation: invisible 4s normal forwards step-end;
+    animation-duration: 14s;
+} 
+/* making it appear and "dissapear" Animation Keyframes */
+    @keyframes invisible {
+        0% {
+        opacity: 0;
+        }
+        40% {
+        opacity: 1;
+        transform:scale(2.3);
+        }
+        100% {
+        opacity: 0;
+}
