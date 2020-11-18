@@ -10,7 +10,7 @@
 
 body {
 	height: 100vh;
-	background: linear-gradient(to bottom, rgba(70, 173, 247, 0.9), rgba(0, 0, 0, 0.2));
+	background: linear-gradient(to bottom, rgba(70, 173, 247, 0.9), rgba(0, 0, 0, 0.9));
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -66,7 +66,7 @@ transition-timing-function: ease-in-out;
 .rating {
 	position: absolute;
 	color: green;
-	margin-left: 70%;
+	margin-left: 85%;
 }
 
 #rating_figures{
@@ -89,6 +89,13 @@ transition-timing-function: ease-in-out;
 	border-radius: 50%;
 	background: #F26432;
 	background-image: linear-gradient(to right, #F26432 50%, white 0%);
+}
+
+.rating_none {
+	width: 16px; height: 16px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.5);
+	color: #fff;
 }
 .info_top {
 	text-align: center;
@@ -118,34 +125,28 @@ h1 {
 	color: #F1EFED;
 }
 
-#jumping_salmon{
-	height: 20%;
-	width: 182px;
-	margin-top: 0;
-	border-radius: 15px;
-	transform: scale(1.25);
-}
-#underwater_river{
-	height: 20%;
-	width: 170px;
-	margin-top: 0;
-	border-radius: 15px;
-	transform: scale(1.15);
-}
-#red_salmon{
-	height: 20%;
-	width: 182px;
-	margin-top: 0;
-	border-radius: 15px;
-	transform: scale(1.15);
+.fishpic {
+	width: 250px;
+	height: 200px;
+	padding: 5px;
+	border-radius: 20px;
 }
 
-#blank_salmon{
-	height: 20%;
-	width: 182px;
-	margin-top: 0;
-	border-radius: 15px;
-	transform: scale(1.15);
+.info {
+	display: flex;
+	flex-wrap: wrap;
+  	font-size: 15px;
+  	color: #fff;
+  	font-weight: 100;
+	padding-right: 30px;
+	margin: 10px 0 10px 0;
+	padding-top: 3px;
+}
+
+/* Icons in the info*/
+.info_icons {
+	max-width: 25px; height: 25px;
+	margin-right: 10px;
 }
 
 /* html {
