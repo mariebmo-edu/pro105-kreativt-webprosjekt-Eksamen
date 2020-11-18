@@ -98,6 +98,12 @@ h1 {
 	line-height: 1.2;
 }
 
+.rated_people {
+	margin-top: 5px;
+	font-size: 13.5px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
 /* A full pie */
 .pie, .half_pie {
 	padding: 1px;

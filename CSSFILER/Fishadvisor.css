@@ -85,6 +85,10 @@ html {
     height: 100%;
 }
 
+p {
+    letter-spacing: .1em;
+}
+
 /* BACKGROUND */
 
 /*wave_animation*/
