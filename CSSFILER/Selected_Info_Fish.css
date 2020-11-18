@@ -12,8 +12,8 @@ body {
 	height: 100vh;
 	background: linear-gradient(to bottom, rgba(70, 173, 247, 0.9), rgba(0, 0, 0, 1));
 	background-position: top;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-size:contain;
+	background-repeat:round;
 }
 
 p {
