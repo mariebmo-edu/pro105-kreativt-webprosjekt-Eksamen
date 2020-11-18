@@ -54,7 +54,7 @@ h1 {
 	margin-bottom: 20px;
 }
 
-
+/*Buttons to select if you are a fish or a fisher*/
 .custom-select {
     display: flex;
     justify-content: center;
@@ -85,4 +85,17 @@ h1 {
 #fisher_clicked {
 	color: #fff;
 	opacity: 0.5;
+}
+
+/*Input fields greyed out*/
+#name_inactive {
+	background: #505050;
+}
+
+#pass_inactive {
+	background: #505050;
+}
+
+#pass2_inactive {
+	background: #505050;
 }
