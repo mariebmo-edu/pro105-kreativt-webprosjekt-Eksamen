@@ -196,6 +196,62 @@ h1 {
     background-color: #F26432;
 }
 
+/*ORDER COMPLETED POP-UP*/
+
+#order_button{
+    position: relative;
+    top: -100px;
+    left: 904px;
+}
+
+/*When clicking the "order" button, the competed order form will appear*/
+#order_button:focus + #order_popup{
+    animation: pop_up 0.05s ease-in forwards;
+    animation-delay: 0s;
+}
+
+/*Whole section*/
+#order_popup{
+    position: fixed;
+    top: 30px;
+    opacity: 0%;
+    width: 800px;
+}
+
+/*Section within the square (no badge)*/
+#order_square{
+    position: relative;
+    top: 50px;
+    background-color: #F1EFED;
+    width: 100%;
+    box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.3);
+}
+
+/*Padding for all elements*/
+.order_padding{
+    padding: 30px;
+}
+
+/*Header for order complete-form*/
+#order_header{
+    background-color: #46AEF7;
+    color: white;
+    font-size: 40px;
+}
+
+/*order table*/
+#order_table{
+    width: 100%;
+    text-align: left;
+}
+
+/*pop-up animation*/
+@keyframes pop_up{
+    0%{opacity:0%}
+    100%{opacity: 100%}
+}
+
+
 /* html {
 background: url(/images/fish/underwater-lakselv.jpg) no-repeat center center fixed;
 background-size: cover;
