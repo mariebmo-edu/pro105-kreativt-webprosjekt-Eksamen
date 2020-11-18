@@ -169,6 +169,33 @@ h1 {
 	margin-right: 10px;
 }
 
+
+/*Safety Months*/
+
+#safety_dates{
+    width: 60%;
+}
+
+#safety_dates tr th{
+    width: 8.33%;
+}
+
+#safety_dates tr td{
+    height: 23px;
+}
+
+.low{
+    background-color: mediumseagreen;
+}
+
+.med{
+    background-color: #EDD70F;
+}
+
+.high{
+    background-color: #F26432;
+}
+
 /* html {
 background: url(/images/fish/underwater-lakselv.jpg) no-repeat center center fixed;
 background-size: cover;
