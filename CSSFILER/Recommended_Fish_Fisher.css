@@ -49,27 +49,26 @@ h1 {
 }
 
 /* Images which connects to a button */
-#image1_btn, #image2_btn, #image3_btn {
+.image1_btn, .image2_btn, .image3_btn {
 	border-radius: 15px;
     height: 200px;
 	width: 350px;
 	opacity: 85%;
     transition-property: all;
     transition-duration: 0.5s;
-	position: relative;	
+	position: inherit;	
 }
 
 /* When hovering the images scales the image and full opacity */
-#image1_btn:hover, #image2_btn:hover, #image3_btn:hover {
+.image1_btn:hover, .image2_btn:hover, .image3_btn:hover {
     opacity: 100%;
     transform: scale(1.10);
     cursor: pointer;
 }
 
 /* Connecting the dropdown info box to each of the images */
-#image1_btn:hover + .dropdown, #image2_btn:hover + .dropdown, #image3_btn:hover + .dropdown {
+.image1_btn:hover + .dropdown, .image2_btn:hover + .dropdown, .image3_btn:hover + .dropdown {
 	display: block;
-	box-shadow: 8px aliceblue;
 	opacity: 1;
 }
 
