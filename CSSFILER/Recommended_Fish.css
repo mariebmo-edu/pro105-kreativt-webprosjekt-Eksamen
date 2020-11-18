@@ -72,8 +72,7 @@ h1 {
 /* The dropdown info box which appears when hovering the image */
 .dropdown {
 	padding: 20px;
-	width: 100%;
-	max-width: 390px;
+	width: 390px;
 	position:absolute;
 	display: none;
 	font-family: sans-serif;
@@ -88,9 +87,6 @@ h1 {
 /* Connecting the dropdown info box to each of the images */
 #lakselv_btn:hover + .dropdown, #frafjordelva_btn:hover + .dropdown, #vormo_btn:hover + .dropdown {
 	display: block;
-	transition-property: all;
-	transition-timing-function: ease;
-	transition-duration: 2s;
 	box-shadow: 8px aliceblue;
 	opacity: 80%;
 }
@@ -127,14 +123,40 @@ h1 {
 
 /* Info in the dropdown box*/
 .info {
-  font-size: 15px;
-  color: rgba(0,0,0,0.8);
-  font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+  	font-size: 15px;
+  	color: rgba(0,0,0,0.8);
+  	font-weight: bold;
+	padding-right: 30px;
+	margin: 2px;
+	
 }
 
 /* Last Updated section in the info box */
 .last_update {
-  font-size: 14px;
-  font-weight: bold;
-  color: #F26432;
+	font-size: 14px;
+	font-weight: bold;
+	color: #F26432;
+	
 }
+
+.info_icons {
+	max-width: 25px; height: 25px;
+	margin: 1px;
+
+}
+
+.info_to_icon {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 2px;
+}
+/*
+- vannkvalitet (tar med plast i havet, kjemikalier osv)
+- family friendly
+- excercise/fitness (fordi det er en elv med rennende vann hihi)
+- safe (fordi det ikke er hai)
+- type "havbunn", typ gjørme, stein, sand osv
+*/

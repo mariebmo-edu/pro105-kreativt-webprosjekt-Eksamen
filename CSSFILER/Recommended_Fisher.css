@@ -122,3 +122,16 @@ h1 {
   font-weight: bold;
   color: #F26432;
 }
+
+.info_icons {
+	max-width: 25px; height: 25px;
+	margin: 1px;
+
+}
+
+.info_to_icon {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 2px;
+}
