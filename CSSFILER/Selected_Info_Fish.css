@@ -118,6 +118,21 @@ h1 {
 	color: #F1EFED;
 }
 
+#jumping_salmon{
+	height: 20%;
+	width: 20%;
+	float: right;
+	position: relative;
+	margin-top: 0;
+	border-radius: 15px;
+}
+#underwater_river{
+	height: 20%;
+	width: 182px;
+	margin-top: 0;
+	border-radius: 15px;
+}
+
 /* html {
 	background: url(/images/fish/underwater-lakselv.jpg) no-repeat center center fixed;
 	background-size: cover;
