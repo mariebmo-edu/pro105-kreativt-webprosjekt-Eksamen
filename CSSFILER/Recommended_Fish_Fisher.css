@@ -50,7 +50,7 @@ h1 {
 
 /* Images which connects to a button */
 #image1_btn, #image2_btn, #image3_btn {
-	border-radius: 0;
+	border-radius: 15px;
     height: 200px;
 	width: 350px;
 	opacity: 85%;
@@ -62,7 +62,7 @@ h1 {
 /* When hovering the images scales the image and full opacity */
 #image1_btn:hover, #image2_btn:hover, #image3_btn:hover {
     opacity: 100%;
-    transform: scale(1.07);
+    transform: scale(1.10);
     cursor: pointer;
 }
 
@@ -257,10 +257,3 @@ h1 {
         100% {
         opacity: 0;
 }
-/*
-- vannkvalitet (tar med plast i havet, kjemikalier osv)
-- family friendly
-- excercise/fitness (fordi det er en elv med rennende vann hihi)
-- safe (fordi det ikke er hai)
-- type "havbunn", typ gjørme, stein, sand osv
-*/
