@@ -1,3 +1,4 @@
+/* Background image */
 .landing_page {
 	height: 100vh;
     background-image:linear-gradient( to bottom,
@@ -15,8 +16,6 @@ h1 {
     justify-content: center;
 	padding-top: 30px;
 }
-
-/* Centering the h2 tag */
 
 /* Centering the div tag which contains the location divs */
 .recommended_container {
@@ -48,6 +47,7 @@ h1 {
 	
 }
 
+/* Images which connects to a button */
 #lofoten_btn, #atlantic_btn, #hardanger_btn {
     border-radius: 15px;
     height: 200px;
@@ -59,6 +59,7 @@ h1 {
 	
 }
 
+/* When hovering the images scales the image and full opacity */
 #lofoten_btn:hover, #atlantic_btn:hover, #hardanger_btn:hover {
     height: 240px;
 	width: 390px;
@@ -69,8 +70,16 @@ h1 {
 
 }
 
+/* Connecting the dropdown info box to each of the images */
+#lofoten_btn:hover + .dropdown, #atlantic_btn:hover + .dropdown, #hardanger_btn:hover + .dropdown {
+	display: block;
+	box-shadow: 8px aliceblue;
+	opacity: 80%;
+}
+
+/* The dropdown info box which appears when hovering the image */
 .dropdown {
-	padding: 25px;
+	padding: 20px;
 	width: 100%;
 	max-width: 390px;
 	position:absolute;
@@ -84,18 +93,13 @@ h1 {
 	
 }
 
-#lofoten_btn:hover + .dropdown, #atlantic_btn:hover + .dropdown, #hardanger_btn:hover + .dropdown {
-	display: block;
-	box-shadow: 8px aliceblue;
-	opacity: 80%;
-}
-
+/* Creating different kinds of pies which represents reviews */
 .pie_charts {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-
+/* A full pie */
 .pie { 
 	padding: 1px;
   	width: 16px; height: 16px;
@@ -104,6 +108,7 @@ h1 {
 
 }
 
+/* A half pie */
 .half_pie {
 	width: 16px; height: 16px;
   	border-radius: 50%;
@@ -111,24 +116,33 @@ h1 {
 	
 }
 
+/* Empty pie for spacing */
+.white_pie {
+	width: 16px; height: 16px;
+	border-radius: 50%;
+	background: #46AEF7;
+	
+}
+
+/* Info in the dropdown box*/
 .info {
-  font-size: 15px;
-  color: rgba(0,0,0,0.8);
-  font-weight: bold;
+	display: flex;
+	flex-wrap: wrap;
+  	font-size: 15px;
+  	color: rgba(0,0,0,0.8);
+  	font-weight: bold;
+	margin: 2px;
+	
 }
 
-.last_update {
-  font-size: 14px;
-  font-weight: bold;
-  color: #F26432;
-}
-
+/* Icons in the info*/
 .info_icons {
 	max-width: 25px; height: 25px;
 	margin: 1px;
 
 }
 
+/* Info related to the icons*/
 .info_to_icon {
 	display: flex;
 	justify-content: flex-start;
