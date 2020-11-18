@@ -132,6 +132,7 @@ h1 {
   	font-weight: bold;
 	padding-right: 30px;
 	margin: 2px;
+	padding-top: 3px;
 	
 }
 
@@ -150,13 +151,28 @@ h1 {
 	padding-left: 2px;
 }
 
-/* Price on image */
-.img_price {
+.price_div {
+	position: relative;
 	display: flex;
-	
+	justify-content: flex-end;
+	font-family: 'Lato';
+	font-size: 25px;
+	border-radius: 4px;
 	
 }
 
+.offer {
+	display: flex;
+	align-content: center;
+	font-family: 'Lato';
+	font-size: 15px;
+	padding-right: 5px;
+}
+
+.price {
+	border-radius: 5px;
+	background-color: #F26432;
+}
 /*
 - vannkvalitet (tar med plast i havet, kjemikalier osv)
 - family friendly
