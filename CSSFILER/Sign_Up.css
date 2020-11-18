@@ -99,3 +99,41 @@ h1 {
 #pass2_inactive {
 	background: #505050;
 }
+
+/*Black box without animation*/
+.box_black_no_animation {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 400px;
+	height: 450px;
+    border-radius: 1em;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.u_signup_2 {
+	width: 70%;
+	padding: 10px 20px;
+	background:  #F1EFED;
+	color: #505050;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border: 1px solid transparent;
+	border-radius: 50px;
+	outline: none;
+	text-align: center;
+	margin-bottom: 27px;
+	margin-bottom: 50px;
+}
+
+.btn2 {
+	cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(to right, #F26432, #46AEF7);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+}
