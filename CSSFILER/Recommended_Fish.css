@@ -1,96 +1,90 @@
 /* Background image */
-.landing_page {
+body {
 	height: 100vh;
     background-image:linear-gradient( to bottom,
         rgba(70, 173, 247, 1),
-        rgba(0, 0, 0, 0)),
-        url(/images/Background/background_frontpage.jpg);
+        rgba(0, 0, 0, .5));
     background-size: cover;
     background-position: top;
     position: relative;
 }
 
+.header_area {
+	background-color: transparent;
+}
+.header_area ul {
+	background-color: transparent;
+}
+
 /* Centering the h1 tag */
 h1 {
-    display: flex;
-    justify-content: center;
 	padding-top: 30px;
 }
 
 /* Centering the div tag which contains the location divs */
 .recommended_container {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 /* Arranging the divs to be in a row by using flexbox */
 .recommended_place {  
+	width: 33%;
 	padding: 30px;
     position: relative;
     display: inline-block;
-    
 }
 
 /* Centering the h2 tag and adding font */
 .name {
 	padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
+	margin-left: 20px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 25px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: .1em;
-	color: #000;
-
+	color: #fff;
 }
 
 /* Images which connects to a button */
 #lakselv_btn, #frafjordelva_btn, #vormo_btn {
-    border-radius: 15px;
+	border-radius: 0;
     height: 200px;
 	width: 350px;
-    opacity: 85%;
+	opacity: 85%;
     transition-property: all;
     transition-duration: 0.5s;
-	position: relative;
-	
+	position: relative;	
 }
 
 /* When hovering the images scales the image and full opacity */
 #lakselv_btn:hover, #frafjordelva_btn:hover, #vormo_btn:hover {
-    height: 240px;
-	width: 390px;
     opacity: 100%;
-    transform: scale(1.15);
+    transform: scale(1.07);
     cursor: pointer;
-	box-shadow: 3px 3px 3px 3px #46AEF7;
-
 }
 
 /* Connecting the dropdown info box to each of the images */
 #lakselv_btn:hover + .dropdown, #frafjordelva_btn:hover + .dropdown, #vormo_btn:hover + .dropdown {
 	display: block;
 	box-shadow: 8px aliceblue;
-	opacity: 80%;
+	opacity: 1;
 }
 
 /* The dropdown info box which appears when hovering the image */
 .dropdown {
 	padding: 20px;
+	margin: 15px 10px 0 -12px;
 	width: 100%;
-	max-width: 390px;
-	position:absolute;
+	position: absolute;
 	display: none;
 	font-family: sans-serif;
 	font-size: 15px;
 	color: white;
-	background-color: #46AEF7;
-	border-radius: 15px;
-	box-shadow: 3px 3px 3px 3px #46AEF7;
-	
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 20px;	
 }
 
 /* Creating different kinds of pies which represents reviews */
@@ -99,49 +93,58 @@ h1 {
 	flex-wrap: wrap;
 }
 
+.pie_charts p {
+	margin-left: 10px;
+	line-height: 1.2;
+}
+
 /* A full pie */
-.pie {
+.pie, .half_pie {
 	padding: 1px;
-  	width: 16px; height: 16px;
-  	border-radius: 50%;
+	margin-right: 5px;
+	width: 16px; height: 16px;
+	border-radius: 50%;
+}
+
+.pie {
   	background: #F26432;
 }
 
 /* A half pie */
 .half_pie {
-	padding: 1px;
-	width: 16px; height: 16px;
-  	border-radius: 50%;
   	background-image: linear-gradient(to right, #F26432 50%, white 0%);
-
 }
 
  /* Empty pie for spacing */
 .white_pie {
 	width: 16px; height: 16px;
 	border-radius: 50%;
-	background: #46AEF7;
+	background: rgba(255, 255, 255, 0.5);
+	color: #fff;
+}
+
+/* horizontal line */
+.hr_line {
+	margin-top: 10px;
+	opacity: .2;
 }
 
 /* Info in the dropdown box*/
 .info {
-<<<<<<< Updated upstream
 	display: flex;
 	flex-wrap: wrap;
   	font-size: 15px;
-  	color: rgba(0,0,0,0.8);
-  	font-weight: bold;
+  	color: #fff;
+  	font-weight: 100;
 	padding-right: 30px;
-	margin: 2px;
+	margin: 10px 0 10px 0;
 	padding-top: 3px;
-	
 }
 
 /* Icons in the info*/
 .info_icons {
 	max-width: 25px; height: 25px;
-	margin: 1px;
-
+	margin-right: 10px;
 }
 
 /* Info related to the icons*/
@@ -155,22 +158,23 @@ h1 {
 .price_div {
 	position: relative;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
 	font-family: 'Lato';
 	font-size: 25px;
 	border-radius: 4px;
+	margin: 12px 10px 0 10px;
 	
 }
 
 .offer {
 	display: flex;
-	align-content: center;
-	font-family: 'Lato';
 	font-size: 15px;
 	padding-right: 5px;
 }
 
 .price {
+	padding: 5px 10px;
 	border-radius: 5px;
 	background-color: #F26432;
 }
@@ -181,52 +185,3 @@ h1 {
 - safe (fordi det ikke er hai)
 - type "havbunn", typ gjørme, stein, sand osv
 */
-=======
-    font-size: 15px;
-    color: rgba(0,0,0,0.8);
-    font-weight: bold;
-}
-
-/* Last Updated section in the info box */
-.last_update {
-    font-size: 14px;
-    font-weight: bold;
-    color: #F26432;
-}
-
-/* "Popup" discount window without javascript */
-.popup {
-/* Making the box transparent black */
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 1em;
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
-/* Text */
-    text-align: center;
-	padding-top: 10px;
-    padding-bottom: 5px;
-	color: #F1EFED;
-	font-size: 20px;
-/* Box */
-    margin-top: 15px;
-	margin-bottom: 10px;
-    height: 100px;
-	width: 230px;
-    opacity: 0%;
-    transform: scale(0.01);
-/* Animation */
-    animation: invisible 4s normal forwards step-end;
-    animation-duration: 14s;
-} 
-/* making it appear and "dissapear" Animation Keyframes */
-    @keyframes invisible {
-        0% {
-        opacity: 0;
-        }
-        40% {
-        opacity: 1;
-        transform:scale(2.3);
-        }
-        100% {
-        opacity: 0;
-}
->>>>>>> Stashed changes
