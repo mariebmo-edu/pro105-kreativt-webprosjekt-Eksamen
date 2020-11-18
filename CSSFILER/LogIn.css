@@ -26,10 +26,15 @@ body {
 /* Login heading */
 h1 {
 	color: #fff;
+	margin-top: 20px;
+	margin-bottom: -25px;
 }
 
 /* W BG IMAGE Header background turns transparent - and maybe remove other options when it comes to that */
 .header_area {
+	background-color: transparent;
+}
+.header_area ul {
 	background-color: transparent;
 }
 
