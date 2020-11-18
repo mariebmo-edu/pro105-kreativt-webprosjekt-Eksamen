@@ -1,96 +1,90 @@
 /* Background image */
-.landing_page {
+body {
 	height: 100vh;
     background-image:linear-gradient( to bottom,
         rgba(70, 173, 247, 1),
-        rgba(0, 0, 0, 0)),
-        url(/images/Background/background_frontpage.jpg);
+        rgba(0, 0, 0, .5));
     background-size: cover;
     background-position: top;
     position: relative;
 }
 
+.header_area {
+	background-color: transparent;
+}
+.header_area ul {
+	background-color: transparent;
+}
+
 /* Centering the h1 tag */
 h1 {
-    display: flex;
-    justify-content: center;
 	padding-top: 30px;
 }
 
 /* Centering the div tag which contains the location divs */
 .recommended_container {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 /* Arranging the divs to be in a row by using flexbox */
 .recommended_place {  
+	width: 33%;
 	padding: 30px;
     position: relative;
     display: inline-block;
-    
 }
 
 /* Centering the h2 tag and adding font */
 .name {
 	padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
+	margin-left: 20px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 25px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: .1em;
-	color: #000;
-	
+	color: #fff;
 }
 
 /* Images which connects to a button */
-#lofoten_btn, #atlantic_btn, #hardanger_btn {
-    border-radius: 15px;
+#image1_btn, #image2_btn, #image3_btn {
+	border-radius: 0;
     height: 200px;
 	width: 350px;
-    opacity: 85%;
+	opacity: 85%;
     transition-property: all;
     transition-duration: 0.5s;
-	position: relative;
-	
+	position: relative;	
 }
 
 /* When hovering the images scales the image and full opacity */
-#lofoten_btn:hover, #atlantic_btn:hover, #hardanger_btn:hover {
-    height: 240px;
-	width: 390px;
+#image1_btn:hover, #image2_btn:hover, #image3_btn:hover {
     opacity: 100%;
-    transform: scale(1.15);
+    transform: scale(1.07);
     cursor: pointer;
-	box-shadow: 3px 3px 3px 3px #46AEF7;
-
 }
 
 /* Connecting the dropdown info box to each of the images */
-#lofoten_btn:hover + .dropdown, #atlantic_btn:hover + .dropdown, #hardanger_btn:hover + .dropdown {
+#image1_btn:hover + .dropdown, #image2_btn:hover + .dropdown, #image3_btn:hover + .dropdown {
 	display: block;
 	box-shadow: 8px aliceblue;
-	opacity: 80%;
+	opacity: 1;
 }
 
 /* The dropdown info box which appears when hovering the image */
 .dropdown {
 	padding: 20px;
+	margin: 15px 10px 0 -12px;
 	width: 100%;
-	max-width: 390px;
-	position:absolute;
+	position: absolute;
 	display: none;
 	font-family: sans-serif;
 	font-size: 15px;
 	color: white;
-	background-color: #46AEF7;
-	border-radius: 15px;
-	box-shadow: 3px 3px 3px 3px #46AEF7;
-	
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 20px;	
 }
 
 /* Creating different kinds of pies which represents reviews */
@@ -99,29 +93,40 @@ h1 {
 	flex-wrap: wrap;
 }
 
-/* A full pie */
-.pie { 
-	padding: 1px;
-  	width: 16px; height: 16px;
-  	border-radius: 50%;
-  	background: #F26432;
+.pie_charts p {
+	margin-left: 10px;
+	line-height: 1.2;
+}
 
+/* A full pie */
+.pie, .half_pie {
+	padding: 1px;
+	margin-right: 5px;
+	width: 16px; height: 16px;
+	border-radius: 50%;
+}
+
+.pie {
+  	background: #F26432;
 }
 
 /* A half pie */
 .half_pie {
-	width: 16px; height: 16px;
-  	border-radius: 50%;
   	background-image: linear-gradient(to right, #F26432 50%, white 0%);
-	
 }
 
-/* Empty pie for spacing */
+ /* Empty pie for spacing */
 .white_pie {
 	width: 16px; height: 16px;
 	border-radius: 50%;
-	background: #46AEF7;
-	
+	background: rgba(255, 255, 255, 0.5);
+	color: #fff;
+}
+
+/* horizontal line */
+.hr_line {
+	margin-top: 10px;
+	opacity: .2;
 }
 
 /* Info in the dropdown box*/
@@ -129,17 +134,17 @@ h1 {
 	display: flex;
 	flex-wrap: wrap;
   	font-size: 15px;
-  	color: rgba(0,0,0,0.8);
-  	font-weight: bold;
-	margin: 2px;
-	
+  	color: #fff;
+  	font-weight: 100;
+	padding-right: 30px;
+	margin: 10px 0 10px 0;
+	padding-top: 3px;
 }
 
 /* Icons in the info*/
 .info_icons {
 	max-width: 25px; height: 25px;
-	margin: 1px;
-
+	margin-right: 10px;
 }
 
 /* Info related to the icons*/
@@ -149,6 +154,77 @@ h1 {
 	align-items: center;
 	padding-left: 2px;
 }
+
+.price_div {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Lato';
+	font-size: 25px;
+	border-radius: 4px;
+	margin: 12px 10px 0 10px;
+	
+}
+
+.offer {
+	display: flex;
+	font-size: 15px;
+	padding-right: 5px;
+}
+
+.price {
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: #F26432;
+}
+
+<<<<<<< Updated upstream:CSSFILER/Recommended_Fish.css
+
+/*pop-up square, container*/
+#pop_up_offer{
+    
+    position: fixed;
+    top: 50px;
+    left: -200px;
+    transform: rotate(-30deg);
+    opacity: 0;
+    width: 800px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 10px 10px 10px;
+    /*How long the pop up will stay - xx - how long before it appears*/
+    animation:  10s linear 5s 1 forwards pop_up_anim;
+    
+}
+
+/*pop-up header*/
+#pop_up_offer th{
+    width: 800px;
+    background-color: #EDD70F;
+    color: white;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+/*pop-up description text*/ 
+#pop_up_offer td{
+    text-align: center;
+    width: inherit;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+}
+    
+/*Pop-up animation*/
+@keyframes pop_up_anim {
+    0% {opacity: 1;}
+    99% {opacity: 1;}
+    100% {opacity: 0;}
+}
+    
+=======
 /* "Popup" discount window without javascript */
 .popup {
 /* Making the box transparent black */
@@ -184,3 +260,11 @@ h1 {
         100% {
         opacity: 0;
 }
+>>>>>>> Stashed changes:CSSFILER/Recommended_Fish_Fisher.css
+/*
+- vannkvalitet (tar med plast i havet, kjemikalier osv)
+- family friendly
+- excercise/fitness (fordi det er en elv med rennende vann hihi)
+- safe (fordi det ikke er hai)
+- type "havbunn", typ gjørme, stein, sand osv
+*/
