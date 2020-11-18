@@ -179,8 +179,6 @@ h1 {
 	background-color: #F26432;
 }
 
-<<<<<<< Updated upstream:CSSFILER/Recommended_Fish.css
-
 /*pop-up square, container*/
 #pop_up_offer{
     
@@ -223,8 +221,7 @@ h1 {
     99% {opacity: 1;}
     100% {opacity: 0;}
 }
-    
-=======
+
 /* "Popup" discount window without javascript */
 .popup {
 /* Making the box transparent black */
@@ -260,7 +257,6 @@ h1 {
         100% {
         opacity: 0;
 }
->>>>>>> Stashed changes:CSSFILER/Recommended_Fish_Fisher.css
 /*
 - vannkvalitet (tar med plast i havet, kjemikalier osv)
 - family friendly
