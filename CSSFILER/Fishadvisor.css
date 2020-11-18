@@ -210,6 +210,13 @@ Also have their unique class in case somebody whats to change one*/
     transform: translate(-50%, -50%);
 }
 
+/* Center Screen */
+
+.center {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* HEADING */
 
 h1 {
@@ -275,3 +282,4 @@ h1 {
         opacity: 1;
     }
 }
+
