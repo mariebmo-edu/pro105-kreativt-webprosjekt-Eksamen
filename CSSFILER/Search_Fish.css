@@ -30,12 +30,12 @@ html{
 .general_flex_style{
     width: 100%;
     position: relative; 
-    background-color: rgba(200, 225, 250, 0.7);
-    margin: 1px;
+    background-color: rgba(200, 225, 250, 0.9);
+    margin: 3px;
     padding: 8px;
     border-style: solid;
     border-width: 0px;
-    border-radius: 0px;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
@@ -83,6 +83,27 @@ html{
     height: 70px;
 }
 
+#type_of_trip, #type_of_water, #end_date, #start_date {
+    background-color: transparent;
+    border: none;
+}
+
+.from_field, .to_field {
+    background-color: transparent;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+#type_of_trip, #type_of_water {
+    margin-top: 13px;
+}
+#type_of_water {
+    width: 120px;
+}
+
 input[type=range]{
     width: 70%;
 }
@@ -94,7 +115,7 @@ input[type=range]{
 
 /*Search Button*/
 
-#search_button{
+#search_button {
     cursor: pointer;
     margin-top: 20px;
     padding: 15px 20px;
@@ -103,8 +124,14 @@ input[type=range]{
     color: #fff;
     border: none;
     border-radius: 30px;
+    transition: all .2s ease-out;
 }
 
-.opacity{
-    opacity: 50%;
+#search_button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .3);
+}
+#search_button:active {
+    transform: translateY(-1px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .5);
 }
