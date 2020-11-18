@@ -178,6 +178,51 @@ h1 {
 	border-radius: 5px;
 	background-color: #F26432;
 }
+
+
+/*pop-up square, container*/
+#pop_up_offer{
+    
+    position: fixed;
+    top: 50px;
+    left: -200px;
+    transform: rotate(-30deg);
+    opacity: 0;
+    width: 800px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    box-shadow: 10px 10px 10px;
+    /*How long the pop up will stay - xx - how long before it appears*/
+    animation:  10s linear 5s 1 forwards pop_up_anim;
+    
+}
+
+/*pop-up header*/
+#pop_up_offer th{
+    width: 800px;
+    background-color: #EDD70F;
+    color: white;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+/*pop-up description text*/ 
+#pop_up_offer td{
+    text-align: center;
+    width: inherit;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+}
+    
+/*Pop-up animation*/
+@keyframes pop_up_anim {
+    0% {opacity: 1;}
+    99% {opacity: 1;}
+    100% {opacity: 0;}
+}
+    
 /*
 - vannkvalitet (tar med plast i havet, kjemikalier osv)
 - family friendly
