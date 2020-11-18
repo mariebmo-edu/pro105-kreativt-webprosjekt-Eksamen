@@ -1,3 +1,4 @@
+/* Background image */
 .landing_page {
 	height: 100vh;
     background-image:linear-gradient( to bottom,
@@ -16,13 +17,19 @@ h1 {
 	padding-top: 30px;
 }
 
-/* Centering the h2 tag */
-h2 {
-    padding: 15px;
+/* Centering the h2 tag and adding font */
+.name {
+	padding-bottom: 20px;
     display: flex;
     justify-content: center;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+    font-weight: 100;
+    letter-spacing: .1em;
+	color: #000;
+	
 }
-
 /* Centering the div tag which contains the location divs */
 .recommended_container {
     display: flex;
@@ -40,7 +47,8 @@ h2 {
     
 }
 
-#lakselva_btn, #frafjordelva_btn, #vormo_btn {
+/* Images which connects to a button */
+#lakselv_btn, #frafjordelva_btn, #vormo_btn {
     border-radius: 15px;
     height: 200px;
 	width: 350px;
@@ -50,7 +58,8 @@ h2 {
 	position: relative;
 }
 
-#lakselva_btn:hover, #frafjordelva_btn:hover, #vormo_btn:hover {
+/* When hovering the images scales the image and full opacity */
+#lakselv_btn:hover, #frafjordelva_btn:hover, #vormo_btn:hover {
     height: 240px;
 	width: 390px;
     opacity: 100%;
@@ -60,6 +69,7 @@ h2 {
 
 }
 
+/* The dropdown info box which appears when hovering the image */
 .dropdown {
 	padding: 20px;
 	width: 100%;
@@ -75,7 +85,8 @@ h2 {
 	
 }
 
-#lakselva_btn:hover + .dropdown, #frafjordelva_btn:hover + .dropdown, #vormo_btn:hover + .dropdown {
+/* Connecting the dropdown info box to each of the images */
+#lakselv_btn:hover + .dropdown, #frafjordelva_btn:hover + .dropdown, #vormo_btn:hover + .dropdown {
 	display: block;
 	transition-property: all;
 	transition-timing-function: ease;
@@ -84,11 +95,13 @@ h2 {
 	opacity: 80%;
 }
 
+/* Creating diferent kinds of pies which represents reviews */
 .pie_charts {
 	display: flex;
 	flex-wrap: wrap;
 }
 
+/* A full pie */
 .pie {
 	padding: 1px;
   	width: 16px; height: 16px;
@@ -96,6 +109,7 @@ h2 {
   	background: #F26432;
 }
 
+/* A half pie */
 .half_pie {
 	padding: 1px;
 	width: 16px; height: 16px;
@@ -104,18 +118,21 @@ h2 {
 
 }
 
+ /* Empty pie for spacing */
 .white_pie {
 	width: 16px; height: 16px;
 	border-radius: 50%;
 	background: #46AEF7;
 }
 
+/* Info in the dropdown box*/
 .info {
   font-size: 15px;
   color: rgba(0,0,0,0.8);
   font-weight: bold;
 }
 
+/* Last Updated section in the info box */
 .last_update {
   font-size: 14px;
   font-weight: bold;
