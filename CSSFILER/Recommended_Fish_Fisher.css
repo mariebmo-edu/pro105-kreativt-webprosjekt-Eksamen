@@ -11,6 +11,7 @@ body, html {
 	height: 100vh;
 	background: linear-gradient(to bottom, rgba(70, 173, 247, 0.9), rgba(0, 0, 0, 1));
 	background-attachment: fixed;
+	margin-bottom: auto;
 }
 
 /* Centering the h1 tag */
