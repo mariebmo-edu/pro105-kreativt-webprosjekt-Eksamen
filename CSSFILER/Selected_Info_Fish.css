@@ -183,6 +183,13 @@ h1 {
 	color: rgba(255, 255, 255, 0.7);
 }
 
+.hr_line {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px 0 10px 50px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
 /* Icons in the info*/
 .info_icons {
 	height: 25px; max-width: 25px; 
@@ -281,13 +288,3 @@ th {
     100%{opacity: 100%}
 =======
 
-
-
-
-/* html {
-background: url(/images/fish/underwater-lakselv.jpg) no-repeat center center fixed;
-background-size: cover;
-} */
-
-
-/*Same as backround in login_css, just edited the url*/
