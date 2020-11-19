@@ -208,8 +208,6 @@ h1 {
     background-color: #F26432;
 }
 
-<<<<<<< Updated upstream
-/*ORDER COMPLETED POP-UP*/
 
 #order_button{
     position: relative;
@@ -229,6 +227,7 @@ h1 {
     top: 30px;
     opacity: 0%;
     width: 800px;
+    pointer-events: none;
 }
 
 /*Section within the square (no badge)*/
