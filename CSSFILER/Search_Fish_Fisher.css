@@ -6,6 +6,7 @@ Off-White  - #F1EFED
 Yellow	   - #EDD70F
 */
 
+/*BACKGROUND*/
 html{
     background-image:linear-gradient(
         to bottom,
@@ -17,6 +18,7 @@ html{
 	height: 100vh;
 }
 
+/*HEADER AREA*/
 .header_area {
     background-color: transparent;
 }
@@ -26,7 +28,7 @@ html{
 
 /*SEARCH*/
 
-/*re-usable CSS classes*/
+/*re-usable CSS classes for search sections*/
 .general_flex_style{
 	position: relative; 
     width: 100%;
@@ -39,7 +41,7 @@ html{
 	background-color: rgba(200, 225, 250, 0.9);
 }
 
-
+/*label text for search sections*/
 .label_text{
     align-content: flex-start;
     font-family: 'Lato', sans-serif;
@@ -48,6 +50,7 @@ html{
     letter-spacing: .1em;
     color: #000;
 }
+
 
 /*Main Container*/
 
@@ -83,11 +86,13 @@ html{
     height: 70px;
 }
 
+/* border and background for dropdowns/dates*/
 #type_of_trip, #type_of_water, #end_date, #start_date {
     border: none;
 	background-color: transparent;
 }
 
+/* size adjustments from/to */
 .from_field, .to_field {
 	width: 100%;
 	margin: 10px 0px 0px 0px;
@@ -97,17 +102,22 @@ html{
     background-color: transparent;
 }
 
+/*margin adjustment types*/
 #type_of_trip, #type_of_water {
     margin-top: 13px;
 }
+
+/*size adjustment type water*/
 #type_of_water {
     width: 120px;
 }
 
+/*width adjustment range inputs*/
 input[type=range]{
     width: 70%;
 }
 
+/*text adjustment range text*/
 .range_text{
     font-family: sans-serif;
     font-size: 8px;  
