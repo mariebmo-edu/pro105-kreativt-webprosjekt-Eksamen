@@ -70,6 +70,7 @@ transition-timing-function: ease-in-out;
 	position: absolute;
 	margin-left: 85%;
 	color: green;
+	width: 50%;
 }
 
 #rating_figures {
