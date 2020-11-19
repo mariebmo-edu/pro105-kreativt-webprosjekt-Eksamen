@@ -83,6 +83,7 @@ Yellow	   - #EDD70F
     box-sizing: border-box;
 }
 
+/*background and size*/
 html {
 	min-width: 1200px;
 	width: 100%;
@@ -94,6 +95,7 @@ html {
 	color: #505050;
 }
 
+/*general p-tags*/
 p {
     letter-spacing: .1em;
 }
@@ -129,6 +131,7 @@ p {
 	color: white;
 }
 
+/*fishadvisor logo*/
 #logo {
 	width: 18%;
     min-width: 180px;
@@ -142,6 +145,7 @@ p {
     transform: scale(1.03);
 }
 
+/*general unordered list*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -151,12 +155,14 @@ ul {
     background-color: #46AEF7;
 }
 
+/*nav-bar*/
 .navigation {
     float: right;
     margin-left: 5px;
     margin-right: 5px;
 }
 
+/*nav-bar links*/
 .navigation a {
     display: block;
     text-align: center;
@@ -173,6 +179,8 @@ ul {
 }
 
 /* BUTTONS */
+
+/*general button*/
 
 .btn {
     cursor: pointer;
@@ -227,6 +235,7 @@ Also have their unique class in case somebody whats to change one*/
 
 /* BOXES */
 
+/*general black box*/
 .box_black {
     text-align: center;
 	width: 400px;
@@ -238,14 +247,14 @@ Also have their unique class in case somebody whats to change one*/
 	animation: moveInBottom 1s ease-out .5s backwards;
 }
 
+/*general box position to center*/
 .box_center {
     margin-top: 300px;
 	margin-left: 50%;
     transform: translate(-50%, -50%);
 }
 
-/* Center Screen */
-
+/* general Center Screen */
 .center {
     max-width: 1140px;
     margin: 0 auto;
@@ -265,6 +274,7 @@ h1 {
 
 /* ANIMATIONS */
 
+/*moves in from bottom*/
 @keyframes moveInBottom {
     0% {
         opacity: 0;
@@ -280,6 +290,7 @@ h1 {
     }
 }
 
+/*moves in from left*/
 @keyframes moveInLeft {
     0% {
         opacity: 0;
@@ -294,6 +305,7 @@ h1 {
     }
 }
 
+/*moves in from right*/
 @keyframes moveInRight {
     0% {
         opacity: 0;
@@ -308,6 +320,7 @@ h1 {
     }
 }
 
+/*fades in from 0 to 1*/
 @keyframes fadeInScale {
     0% {
         opacity: 0;
@@ -317,6 +330,7 @@ h1 {
     }
 }
 
+/*background animation move from left--> right and fades in/out*/
 @keyframes waves-move {
     0% {
         background-position: 0%; 
