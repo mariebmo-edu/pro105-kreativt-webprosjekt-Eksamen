@@ -16,28 +16,28 @@ body{
 
 /* W BG IMAGE */
 body {
-	height: 100vh;
 	background: linear-gradient(to bottom, rgba(70, 173, 247, 0.9), rgba(0, 0, 0, 1)) , url(/images/Background/background_login.jpg);
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 100vh;
 }
 
 /* Login heading */
 h1 {
-	color: #fff;
 	margin-top: 20px;
 	margin-bottom: -25px;
+	color: #fff;
 }
 
 /* W BG IMAGE Header background turns transparent - and maybe remove other options when it comes to that */
 .header_area {
 	background-color: transparent;
 }
+
 .header_area ul {
 	background-color: transparent;
 }
-
 
 /* ------ login part ------ */
 .login-box {
@@ -46,31 +46,29 @@ h1 {
 	transform: translate(-50%, -50%);
 }
 
-
 /* Login tittel */
 .login {
 	text-align: center;
+	margin-bottom: 50px;
 	padding-top: 40px;
-	/* color: #505050; */
-	color: #F1EFED;
     font-weight: bold;
 	font-size: 25px;
-	margin-bottom: 50px;
+	color: #F1EFED;
 }
 
 /* login box bottom part - forgot pass, etc */
 .login_bottom {
 	display: flex;
 	justify-content: space-between;
-	padding: 50px 70px 0px 70px;
 	text-align: center;
+	padding: 50px 70px 0px 70px;
 }
+
 .login_sub a {
-	/* color:#505050; */
-	color: #F1EFED;
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 13px;
+	color: #F1EFED;
 }
 
 

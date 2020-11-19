@@ -44,11 +44,11 @@ p {
 }
 
 .photo_box, .about_box {
-	color: #F1EFED;
-	background-color: rgba(0, 0, 0, 0.5);;
 	border: 0px solid #1DD5E6;
 	border-radius: 15px;
 	padding: 30px;
+	color: #F1EFED;
+	background-color: rgba(0, 0, 0, 0.5);;
 }
 
 .photo_box {
@@ -67,30 +67,30 @@ transition-timing-function: ease-in-out;
 
 .rating {
 	position: absolute;
-	color: green;
 	margin-left: 85%;
+	color: green;
 }
 
-#rating_figures{
+#rating_figures {
 	display: flex;
 	flex-direction: row;
 	margin-bottom: 0.5rem;
 }
 
-.rating_one{
-	padding: 1px;
+.rating_one {
 	width: 16px; height: 16px;
-	border-radius: 50%;
-	background: #F26432;
 	margin-right: 10px;
+	border-radius: 50%;
+	padding: 1px;
+	background: #F26432;
 }
 
-.rating_half{
-	padding: 1px;
+.rating_half {
+	background-image: linear-gradient(to right, #F26432 50%, white 0%);
 	width: 16px; height: 16px;
 	border-radius: 50%;
+	padding: 1px;
 	background: #F26432;
-	background-image: linear-gradient(to right, #F26432 50%, white 0%);
 }
 
 .rating_none {
@@ -112,33 +112,34 @@ transition-timing-function: ease-in-out;
 }
 .selected_info_fish_content a:link,
 .selected_info_fish_content a:visited {
+	position: absolute;
 	display: flex;
 	align-items: center;
-	position: absolute;
 	margin: 45px 0 0 10px;
-	text-decoration: none;
 	font-size: 30px;
-	color: #fff;
+	text-decoration: none;
 	filter: drop-shadow(0px 1px 1px #222);
+	color: #fff;
+	
 	transition: all .1s ease-out;
 }
 .selected_info_fish_content a:hover {
-	transform: translateY(-3px);
 	filter: drop-shadow(0px 2px 2px #222);
+	transform: translateY(-3px);
 }
 .selected_info_fish_content a:active {
-	transform: translateY(-1px);
 	filter: drop-shadow(0px 1px 1px #222);
+	transform: translateY(-1px);
 }
 
 /* heading */
 
 h2 {
 	text-align: left;
-	font-size: 30px;
-	font-weight: 300;
 	margin-bottom: 15px;
 	margin-left: 10px;
+	font-size: 30px;
+	font-weight: 300;
 	letter-spacing: .15em;
 }
 
@@ -154,9 +155,10 @@ h1 {
 .fishpic {
 	width: 250px;
 	height: 200px;
-	padding: 5px;
 	margin-left: 5.5px;
 	border-radius: 10px;
+	padding: 5px;
+	
 	transition: all .3s ease-out;
 }
 
@@ -167,20 +169,19 @@ h1 {
 .info {
 	display: flex;
 	flex-wrap: wrap;
-  	font-size: 15px;
-  	color: rgba(255, 255, 255, 0.7);
-  	font-weight: 300;
-	padding-right: 30px;
 	margin: 0px 0 10px 50px;
+	padding-right: 30px;
 	padding-top: 3px;
+  	font-size: 15px;
+  	font-weight: 300;
+	color: rgba(255, 255, 255, 0.7);
 }
 
 /* Icons in the info*/
 .info_icons {
-	max-width: 25px; height: 25px;
+	height: 25px; max-width: 25px; 
 	margin-right: 10px;
 }
-
 
 /*Safety Months*/
 
@@ -211,10 +212,10 @@ h1 {
 }
 
 th {
+	padding-top: 10px;
 	font-weight: 300;
 	font-size: 18px;
 	text-transform: uppercase;
-	padding-top: 10px;
 }
 
 
@@ -234,8 +235,8 @@ th {
 #order_popup{
     position: fixed;
     top: 30px;
+	width: 800px;
     opacity: 0%;
-    width: 800px;
     pointer-events: none;
 }
 
@@ -243,9 +244,9 @@ th {
 #order_square{
     position: relative;
     top: 50px;
-    background-color: #F1EFED;
     width: 100%;
     box-shadow: 10px 10px 35px 0px rgba(0,0,0,0.3);
+	background-color: #F1EFED;
 }
 
 /*Padding for all elements*/
@@ -255,15 +256,15 @@ th {
 
 /*Header for order complete-form*/
 #order_header{
-    background-color: #46AEF7;
-    color: white;
     font-size: 40px;
+	background-color: #46AEF7;
+    color: white;
 }
 
 /*order table*/
 #order_table{
+	text-align: left;
     width: 100%;
-    text-align: left;
 }
 
 /*pop-up animation*/

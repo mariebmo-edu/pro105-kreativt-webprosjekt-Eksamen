@@ -1,107 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Fishadvisor Search</title>
+	<head>
+		<meta charset="utf-8">
+		<title>Fishadvisor Search</title>
 
-        <link rel="stylesheet" href="CSSFILER/Fishadvisor.css">
-        <link rel="stylesheet" href="CSSFILER/Search_Fish_Fisher.css"> 
-    
-    </head>
-<body>
-    
-    <div class="header_area center">
-        <!-- contains header image, buttons (front page, search, user)-->
-            <a href="FrontPage.html">
-                <img src="images/logo/full-logo-monochrome-white.svg" id="logo" />
-            </a>
-    
-            <ul id="nav_links">
-                <li class="navigation"><a href="Search_Fish.html">Search</a></li>
-                <li class="navigation"><a href="Recommended_Fish.html">Recommended</a></li>
-            </ul>
-    
-        </div>
-    
-    
-    <!--SEARCH - Container-->
-    <div id="search_container">
-            
-        <!--First Row - Container-->
-        <div id="to_from_container">
-            
-            <!-- First column -->
-            <div id="from" class="travel_to_from general_flex_style">
-                <label class="label_text">From</label><br>
-                <input class="from_field" type="text" value="...">
-            </div>
-            
-            <!-- Second column -->
-            <div id="to" class="travel_to_from general_flex_style">
-                <label class="label_text">To</label><br>
-                <input class="to_field" type="text" value="...">
-            </div>
-        </div>
-            
-        <!--Second Row - Container-->
-        <div id="travel_date_container">
-            
-            <!--First column-->
-            <div class="travel_date general_flex_style">
-            <label class="label_text">Start</label><br>
-            <input type="date"  id="start_date" name="trip_start" value="2020-11-15" min="2020-11-15" max="2025-11-15">
-            </div>
+		<link rel="stylesheet" href="CSSFILER/Fishadvisor.css">
+		<link rel="stylesheet" href="CSSFILER/Search_Fish_Fisher.css"> 
 
-            <!--Second column-->
-            <div class="travel_date general_flex_style">
-            <label class="label_text">Return</label><br>
-            <input type="date"  id="end_date" name="trip_end" value="2020-11-16" min="2020-11-16" max="2025-11-16">
-            </div>
-        </div>
-            
-        <!--Third Row - Container-->
-        <div id="bottom_row_container">
-            
-            <!--First column-->
-            <div class="general_flex_style" id="type_of_trip_contaier">
-                <select name="type_of_trip" id="type_of_trip">
-                    <option value="vecation">Vacation</option>
-                    <option value="spawning">Spawning</option>
-                    <option value="global_warming">Global Warming</option>
-                    <option value="migration">Migration</option>
-                    <option value="love">Looking for Love</option>
-                </select><br>
-            </div>
+	</head>
+	<body>
 
-            <!--Second column-->
-            <div class="general_flex_style" id="type_of_water_container">
-                <select name="water_type" id="type_of_water">
-                    <option value="fresh">Fresh</option>
-                    <option value="salt_ocean">Salt / Ocean</option>
-                    <option value="river">River</option>
-                </select><br>
-            </div>
+		<div class="header_area center">
+			<!-- contains header image, buttons (front page, search, user)-->
+			<a href="FrontPage.html">
+				<img src="images/logo/full-logo-monochrome-white.svg" id="logo" />
+			</a>
 
-            <!--Third column-->
-            <div class="general_flex_style" id="water_temperature_container">
-                <label class="label_text">Temperature</label><br>
-                <label class="range_text">0</label>
-                <input type="range" id="water_temperature" name="water_temperature" min="0" max="100">
-                <label class="range_text">100</label><br><br>
-            </div>
+			<ul id="nav_links">
+				<li class="navigation"><a href="Search_Fish.html">Search</a></li>
+				<li class="navigation"><a href="Recommended_Fish.html">Recommended</a></li>
+			</ul>
 
-            <!--Fourth column-->
-            <div class="general_flex_style" id="risk_level_container">
-                <label class="label_text">Risk Level</label><br>
-                <label class="range_text">low</label>
-                <input type="range" id="risk_level" name="risk_level" min="0" max="100">
-                <label class="range_text">high</label><br><br>
-            </div>
-        </div>
-            
-            <!--Search Button-->
-            <a href="Recommended_Fish.html"><input type="button" value="SEARCH" class="general_flex_style" id="search_button"></a>
-    </div><!--END OF SEARCH-->
-</body>
+		</div>
+
+
+		<!--SEARCH - Container-->
+		<div id="search_container">
+
+			<!--First Row - Container-->
+			<div id="to_from_container">
+
+				<!-- First column -->
+				<div id="from" class="travel_to_from general_flex_style">
+					<label class="label_text">From</label><br>
+					<input class="from_field" type="text" value="...">
+				</div>
+
+				<!-- Second column -->
+				<div id="to" class="travel_to_from general_flex_style">
+					<label class="label_text">To</label><br>
+					<input class="to_field" type="text" value="...">
+				</div>
+			</div>
+
+			<!--Second Row - Container-->
+			<div id="travel_date_container">
+
+				<!--First column-->
+				<div class="travel_date general_flex_style">
+					<label class="label_text">Start</label><br>
+					<input type="date"  id="start_date" name="trip_start" value="2020-11-15" min="2020-11-15" max="2025-11-15">
+				</div>
+
+				<!--Second column-->
+				<div class="travel_date general_flex_style">
+					<label class="label_text">Return</label><br>
+					<input type="date"  id="end_date" name="trip_end" value="2020-11-16" min="2020-11-16" max="2025-11-16">
+				</div>
+			</div>
+
+			<!--Third Row - Container-->
+			<div id="bottom_row_container">
+
+				<!--First column-->
+				<div class="general_flex_style" id="type_of_trip_contaier">
+					<select name="type_of_trip" id="type_of_trip">
+						<option value="vecation">Vacation</option>
+						<option value="spawning">Spawning</option>
+						<option value="global_warming">Global Warming</option>
+						<option value="migration">Migration</option>
+						<option value="love">Looking for Love</option>
+					</select><br>
+				</div>
+
+				<!--Second column-->
+				<div class="general_flex_style" id="type_of_water_container">
+					<select name="water_type" id="type_of_water">
+						<option value="fresh">Fresh</option>
+						<option value="salt_ocean">Salt / Ocean</option>
+						<option value="river">River</option>
+					</select><br>
+				</div>
+
+				<!--Third column-->
+				<div class="general_flex_style" id="water_temperature_container">
+					<label class="label_text">Temperature</label><br>
+					<label class="range_text">0</label>
+					<input type="range" id="water_temperature" name="water_temperature" min="0" max="100">
+					<label class="range_text">100</label><br><br>
+				</div>
+
+				<!--Fourth column-->
+				<div class="general_flex_style" id="risk_level_container">
+					<label class="label_text">Risk Level</label><br>
+					<label class="range_text">low</label>
+					<input type="range" id="risk_level" name="risk_level" min="0" max="100">
+					<label class="range_text">high</label><br><br>
+				</div>
+			</div>
+
+			<!--Search Button-->
+			<a href="Recommended_Fish.html"><input type="button" value="SEARCH" class="general_flex_style" id="search_button"></a>
+		</div><!--END OF SEARCH-->
+	</body>
 
 </html>
