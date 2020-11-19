@@ -4,18 +4,21 @@
 		<meta charset="utf-8">
 		<title>Fishadvisor Search</title>
 
+        <!-- CSS link -->
 		<link rel="stylesheet" href="CSSFILER/Fishadvisor.css">
 		<link rel="stylesheet" href="CSSFILER/Search_Fish_Fisher.css"> 
 
 	</head>
 	<body>
 
+        <!-- HEADER AREA -->
 		<div class="header_area center">
 			<!-- contains header image, buttons (front page, search, user)-->
 			<a href="FrontPage.html">
 				<img src="images/logo/full-logo-monochrome-white.svg" id="logo" />
 			</a>
 
+            <!-- NAV BAR -->
 			<ul id="nav_links">
 				<li class="navigation"><a href="Search_Fish.html">Search</a></li>
 				<li class="navigation"><a href="Recommended_Fish.html">Recommended</a></li>
@@ -28,15 +31,18 @@
 		<div id="search_container">
 
 			<!--First Row - Container-->
+            <!-- Travel to/from -->
 			<div id="to_from_container">
 
 				<!-- First column -->
+                <!-- Travel From -->
 				<div id="from" class="travel_to_from general_flex_style">
 					<label class="label_text">From</label><br>
 					<input class="from_field" type="text" value="Germany">
 				</div>
 
 				<!-- Second column -->
+                <!-- Travel to -->
 				<div id="to" class="travel_to_from general_flex_style">
 					<label class="label_text">To</label><br>
 					<input class="to_field" type="text" value="Norway">
@@ -44,15 +50,18 @@
 			</div>
 
 			<!--Second Row - Container-->
+            <!--Travel dates-->
 			<div id="travel_date_container">
 
 				<!--First column-->
+                <!--Travel date-->
 				<div class="travel_date general_flex_style">
 					<label class="label_text">Start</label><br>
 					<input type="date"  id="start_date" name="trip_start" value="2020-11-15" min="2020-11-15" max="2025-11-15">
 				</div>
 
 				<!--Second column-->
+                <!--Return date-->
 				<div class="travel_date general_flex_style">
 					<label class="label_text">Return</label><br>
 					<input type="date"  id="end_date" name="trip_end" value="2020-11-16" min="2020-11-16" max="2025-11-16">
@@ -60,9 +69,11 @@
 			</div>
 
 			<!--Third Row - Container-->
+            <!--Trip type, fishing type, Amount, Weight-->
 			<div id="bottom_row_container">
 
 				<!--First column-->
+                <!--Type of trip-->
 				<div class="general_flex_style" id="type_of_trip_contaier">
 					<select name="type_of_trip" id="type_of_trip">
 						<option value="vecation">Vacation</option>
@@ -74,6 +85,7 @@
 				</div>
 
 				<!--Second column-->
+                <!--Type of fishing-->
 				<div class="general_flex_style" id="type_of_water_container">
 					<select name="water_type" id="type_of_water">
 						<option value="fly">Fly Fishing</option>
@@ -85,18 +97,20 @@
 				</div>
 
 				<!--Third column-->
+                <!--Avg. catch/day-->
 				<div class="general_flex_style" id="water_temperature_container">
 					<label class="label_text">Avg. catch/day</label><br>
 					<label class="range_text">0</label>
-					<input type="range" id="water_temperature" name="water_temperature" min="0" max="100">
+					<input type="range" id="water_temperature" name="catch_day" min="0" max="100">
 					<label class="range_text">100</label><br><br>
 				</div>
 
 				<!--Fourth column-->
+                <!--Avg. weight/catch-->
 				<div class="general_flex_style" id="risk_level_container">
 					<label class="label_text">Avg. weight/catch</label><br>
 					<label class="range_text">0</label>
-					<input type="range" id="risk_level" name="risk_level" min="0" max="100">
+					<input type="range" id="risk_level" name="weight" min="0" max="100">
 					<label class="range_text">100</label><br><br>
 				</div>
 			</div>

@@ -1,14 +1,4 @@
-/* - COLORS
-Light Blue - #1DD5E6
-Blue	   - #46AEF7
-Orange	   - #F26432
-Off-White  - #F1EFED
-Yellow	   - #EDD70F
-*/
-
-
-/* Landing page box */
-
+/* Background & Navigation-bar */
 body {
     background-image:linear-gradient(
         to bottom,
@@ -29,7 +19,7 @@ body {
     background-color: transparent;
 }
 
-/* text box "seas the day" */
+/* text box, heading + signup button */
 .text_box {
     position: absolute;
     top: 45%;
