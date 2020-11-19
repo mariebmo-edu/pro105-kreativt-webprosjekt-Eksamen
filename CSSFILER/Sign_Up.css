@@ -92,13 +92,11 @@ h1 {
 	background: #505050;
 }
 
-#pass_inactive {
-	background: #505050;
+.inactive{
+    background: #505050;
+    color: #606060
 }
 
-#pass2_inactive {
-	background: #505050;
-}
 
 /*Black box without animation*/
 .box_black_no_animation {
