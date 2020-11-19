@@ -70,4 +70,9 @@ body {
     animation: fadeInScale 1s ease-out 1s backwards;
 }
 
-
+.discover_btn:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
+}
+.discover_btn:active {
+    box-shadow: 0px 2.5px 5px rgba(0, 0, 0, .6);
+}

@@ -50,10 +50,10 @@ h1 {
 
 /* Images which connects to a button */
 .image1_btn, .image2_btn, .image3_btn {
-	border-radius: 15px;
+	border-radius: 10px;
     height: 200px;
 	width: 350px;
-	opacity: 85%;
+	opacity: 95%;
     transition-property: all;
     transition-duration: 0.5s;
 	position: inherit;	
